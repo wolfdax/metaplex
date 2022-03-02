@@ -18,6 +18,7 @@ import {
 import { AlertState } from './utils';
 import { Header } from './Header';
 import { MintButton } from './MintButton';
+import { SolFaucentButton } from './SolFaucentButton';
 import { GatewayProvider } from '@civic/solana-gateway-react';
 
 const ConnectButton = styled(WalletDialogButton)`
@@ -206,6 +207,7 @@ const Home = (props: HomeProps) => {
                   />
                 )}
               </MintContainer>
+              <SolFaucentButton/>
             </>
           )}
         </Paper>
